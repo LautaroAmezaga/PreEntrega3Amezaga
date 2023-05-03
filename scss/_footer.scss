@@ -1,3 +1,20 @@
 footer{
     background-color: $primary-color;
+
+    .footer-sm{
+        background-color: $tertiary-color;
+        color: $secondary-color;
+
+        a{
+            color: $secondary-color;
+        }
+    }
+
+    .footer-copyright{
+        color: $quaternary-color;
+        a{
+            color: $quaternary-color;
+            text-decoration: none;
+        }
+    }
 }
