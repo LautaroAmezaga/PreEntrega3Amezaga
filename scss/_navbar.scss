@@ -1,0 +1,22 @@
+.navbar {
+    background-color: $primary-color;
+    
+    .navbar-nav {
+        font-size: 1.08rem;
+        
+        .nav-item_cuenta{
+            a{
+                text-decoration: none;
+                font-size: 0.9rem;
+                margin: 0.2rem;
+                color: $quaternary-color;
+                
+                &:hover{
+                    color: $secondary-color;
+                }
+
+            }
+        }
+    }
+
+}
